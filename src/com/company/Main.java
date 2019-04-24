@@ -29,7 +29,7 @@ public class Main {
         int pom1=1;
         int pom2=100;
 
-        for ()
+        //for ()
 
     }
 
