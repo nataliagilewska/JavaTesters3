@@ -24,6 +24,13 @@ public class Main {
             System.out.print(tab2[j]+" ");
 
         }
+        //PRACA DOMOWA:
+        //ZAd1.
+        int pom1=1;
+        int pom2=100;
+
+        for ()
+
     }
 
 }
