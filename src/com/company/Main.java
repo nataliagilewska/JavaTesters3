@@ -10,6 +10,10 @@ public class Main {
         Wylicz w=new Wylicz(14,21);
         w.dzielnik();
 
+        //2 zadanie ze szkolenia
+        int[] tab = {1,2,4,5,8};
+        Dzialania obiekt = new Dzialania(tab);
+        System.out.println("Suma elementow tablicy: " + obiekt.suma());
     }
 
 }

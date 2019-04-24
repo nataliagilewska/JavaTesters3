@@ -22,7 +22,8 @@ public class Wylicz {
                 if (b%i==0)
                 {
                     bool=true;
-                    System.out.println("Najwiekszy wspolny dzielnik: "+i);
+                    wynik=i;
+                    System.out.println("Najwiekszy wspolny dzielnik: "+wynik);
                     i=0;
                 }
             }
