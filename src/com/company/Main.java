@@ -12,6 +12,9 @@ public class Main {
 
         //2 zadanie ze szkolenia
         int[] tab = {1,2,4,5,8};
+        //tab.for <- jak to wpisze to mam szybka podpowiedz fora
+        //String imie="Michal";
+        //if(imie.equals("Michal")) - dla porownywania stringow lepiej uzywac equals
         Dzialania obiekt = new Dzialania(tab);
         System.out.println("Suma elementow tablicy: " + obiekt.suma());
     }
