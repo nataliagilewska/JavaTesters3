@@ -5,10 +5,9 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        int a=10;
-        int b=12;
+
         //Zadanie ze szkolenia:
-        Wylicz w=new Wylicz(10,12);
+        Wylicz w=new Wylicz(14,21);
         w.dzielnik();
 
     }
