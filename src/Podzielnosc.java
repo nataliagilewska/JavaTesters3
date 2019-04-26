@@ -1,14 +1,8 @@
 public class Podzielnosc {
-    int b1;
+  public Podzielnosc()
+  {}
 
-
-    public Podzielnosc(int b1)
-    {
-        this.b1=b1;
-
-    }
-
-    public boolean czyPodzielne()
+    public boolean czyPodzielne(int b1)
     {
         Boolean bool =false;
         if (b1%3==0)

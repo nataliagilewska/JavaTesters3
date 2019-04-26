@@ -1,5 +1,3 @@
-package com.company;
-
 public class Wylicz {
     int a;
     int b;

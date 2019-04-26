@@ -1,4 +1,4 @@
-package com.company;
+//package com.company;
 
 public class Main {
 
@@ -26,9 +26,18 @@ public class Main {
         }
         //PRACA DOMOWA:
         //ZAd1.
+        System.out.println();
+        System.out.println("\nPraca domowa ZAD 1 - liczby podzielne przez 3 i 5: ");
         int pom1=1;
         int pom2=100;
-
+        Podzielnosc p = new Podzielnosc();
+        for (int k=1;k<=100; k++)
+        {
+            if (p.czyPodzielne(k))
+            {
+                System.out.print(k+" ");
+            }
+        }
         //for ()
 
     }

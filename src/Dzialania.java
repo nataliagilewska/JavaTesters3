@@ -1,9 +1,7 @@
-package com.company;
-
 public class Dzialania {
     int[]tab;
     int zwiekszO=7;
-    String imie;
+
 
     public Dzialania(int[] tab)
     {
@@ -38,7 +36,6 @@ public class Dzialania {
 
         for (i=0;i<pom;i++)
         {
-            System.out.println(imie);
             tab[i]+=zwiekszO;
         }
         return tab;
