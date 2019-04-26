@@ -2,6 +2,10 @@ public class Dzialania {
     int[]tab;
     int zwiekszO=7;
 
+    public Dzialania()
+    {
+
+    }
 
     public Dzialania(int[] tab)
     {
@@ -39,6 +43,16 @@ public class Dzialania {
             tab[i]+=zwiekszO;
         }
         return tab;
+    }
+
+    public int Silnia (int n)
+    {
+        int wynik=1;
+        for (int a1=1; a1<=n; a1++)
+        {
+            wynik*=a1;
+        }
+        return wynik;
     }
 
 }
