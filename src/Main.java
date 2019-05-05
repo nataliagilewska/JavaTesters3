@@ -116,7 +116,9 @@ public class Main {
 
         //ZAD 5.
         System.out.println();
-        System.out.println("ZAD 6:");
+        System.out.println("ZAD 6: Czy suma elementów tablicy równa 0");
+        Tablice sumaZero = new Tablice();
+
 
     }
 

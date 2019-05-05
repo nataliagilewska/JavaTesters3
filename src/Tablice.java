@@ -24,10 +24,27 @@ public class Tablice {
         return tablica2;
     }
 
-    public boolean czySumaRownaZero()
+    public boolean czySumaRownaZero(int [] tablica)
     {
-        boolean b=false;
+        boolean wynik=false;
+        int suma;
 
-        return b;
+        for(int i=0; i<tablica.length;i++)
+        {
+            for (int j=0;j<tablica.length;j++)
+            {
+                if(i!=j)
+                {
+                 suma=tablica[i]+tablica[j];
+                 if (suma==0)
+                 {
+                     wynik=true;
+                 }
+
+                }
+
+            }
+        }
+        return wynik;
     }
 }
