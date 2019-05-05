@@ -16,12 +16,18 @@ public class Tablice {
             if (index>9)
             {
                 index=index-10;
-                System.out.println("index = "+index);
-            }
-            else {index=index;  System.out.println("index = "+index);}
+                            }
+            else {index=index; }
             tablica2[index]=pomocnicza[i]; //tablica[0]=pomocnicza[2]
 
         }
         return tablica2;
+    }
+
+    public boolean czySumaRownaZero()
+    {
+        boolean b=false;
+
+        return b;
     }
 }

@@ -2,6 +2,8 @@
 
 public class Main {
 
+
+
     public static void main(String[] args) {
 	// write your code here
 
@@ -99,6 +101,29 @@ public class Main {
         {
             System.out.print(pomocnik[q]+" "); // NIE DZIALA - POPRAWIC FUNKCJE
         }
+
+        //ZAD 5.
+        System.out.println();
+        System.out.println("ZAD 5: ciąg Fibonacciego");
+        int nn=7;
+        Fibonacci f = new Fibonacci();
+
+        //int n1;
+        //int []fib=new int[nn];
+        int pomocniczek=f.obliczFibonacciego(nn);
+
+        System.out.println(nn+" element ciągu Fibonacciego jest równy "+pomocniczek);
+
+        //ZAD 5.
+        System.out.println();
+        System.out.println("ZAD 6:");
+
     }
 
+
+
+
+
+
 }
+
