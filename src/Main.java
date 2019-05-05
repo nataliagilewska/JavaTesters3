@@ -90,14 +90,14 @@ public class Main {
         //przesuwamy ją o 2, więc element z indeksu 9 znajdzie się pod indeksem 1, indeks 8 pod 0 itd.
         System.out.println("\nZAD 4: Przesunięta tablica ");
 
-        int []tab4 = new int[]{1,2,3,4,5,6,7,8,9,10};
+        int []tab4 = new int[]{1,2,3,4,5,6,7,8,9,10}; // NIE DZIALA - POPRAWIC FUNKCJE
         int oile=2;
         Tablice t = new Tablice();
         int []pomocnik;
         pomocnik = t.przesun(tab4, oile);
         for (int q=0; q<10; q++)
         {
-            System.out.print(pomocnik[q]+" ");
+            System.out.print(pomocnik[q]+" "); // NIE DZIALA - POPRAWIC FUNKCJE
         }
     }
 
