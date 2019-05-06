@@ -114,10 +114,22 @@ public class Main {
 
         System.out.println(nn+" element ciągu Fibonacciego jest równy "+pomocniczek);
 
-        //ZAD 5.
+        //ZAD 6.
         System.out.println();
         System.out.println("ZAD 6: Czy suma elementów tablicy równa 0");
-        Tablice sumaZero = new Tablice();
+        int [] sumaZero = {-1,1,2,3,4,5};
+        int [] sumaNieZero = {1,2,3,4,5};
+        Tablice tablice = new Tablice();
+        System.out.println("Pierwsza tablica: "+tablice.czySumaRownaZero(sumaZero));
+        System.out.println("Druga tablica: "+tablice.czySumaRownaZero(sumaNieZero));
+
+        //ZAD 7.
+        System.out.println();
+        System.out.println("ZAD 7: Rysowanie prostokątów");
+        int a7 = 10;
+        int b7 = 3;
+        Prostokat prostokat = new Prostokat ();
+        prostokat.rysuj(a7,b7);
 
 
     }
